@@ -7,9 +7,38 @@
     "file": "assets/layers-BWBAp2CZ.png",
     "src": "node_modules/leaflet/dist/images/layers.png"
   },
+  "node_modules/leaflet/dist/images/marker-icon-2x.png": {
+    "file": "assets/marker-icon-2x-1TirABJh.js",
+    "name": "marker-icon-2x",
+    "src": "node_modules/leaflet/dist/images/marker-icon-2x.png",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/marker-icon-2x-_ZA0WGCc.png"
+    ]
+  },
   "node_modules/leaflet/dist/images/marker-icon.png": {
-    "file": "assets/marker-icon-hN30_KVU.png",
-    "src": "node_modules/leaflet/dist/images/marker-icon.png"
+    "file": "assets/marker-icon-B6h-nX3D.js",
+    "name": "marker-icon",
+    "src": "node_modules/leaflet/dist/images/marker-icon.png",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/marker-icon-hN30_KVU.png"
+    ]
+  },
+  "node_modules/leaflet/dist/images/marker-shadow.png": {
+    "file": "assets/marker-shadow-B9CpECYs.js",
+    "name": "marker-shadow",
+    "src": "node_modules/leaflet/dist/images/marker-shadow.png",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/marker-shadow-f7SaPCxT.png"
+    ]
+  },
+  "node_modules/leaflet/dist/leaflet-src.esm.js": {
+    "file": "assets/leaflet-src.esm-HdBnhJze.js",
+    "name": "leaflet-src.esm",
+    "src": "node_modules/leaflet/dist/leaflet-src.esm.js",
+    "isDynamicEntry": true
   },
   "public/fonts/boxicons.eot": {
     "file": "assets/boxicons-CSrLvhY_.eot",
@@ -163,33 +192,25 @@
     "file": "assets/remixicon-B83Wci9r.woff2",
     "src": "public/fonts/remixicon.woff2"
   },
-  "public/images/apps/calendar.png": {
-    "file": "assets/calendar-yfM8ZpJt.png",
-    "src": "public/images/apps/calendar.png"
+  "public/images/bg-home.jpg": {
+    "file": "assets/bg-home-DTOHC1iM.jpg",
+    "src": "public/images/bg-home.jpg"
   },
-  "public/images/apps/chatbox.png": {
-    "file": "assets/chatbox-DnuZYIu7.png",
-    "src": "public/images/apps/chatbox.png"
-  },
-  "public/images/apps/inventory.png": {
-    "file": "assets/inventory-DCAGjWxa.png",
-    "src": "public/images/apps/inventory.png"
-  },
-  "public/images/apps/laboratory.png": {
-    "file": "assets/laboratory-DGebyxyk.png",
-    "src": "public/images/apps/laboratory.png"
-  },
-  "public/images/apps/referral.png": {
-    "file": "assets/referral-eRDadRH6.png",
-    "src": "public/images/apps/referral.png"
-  },
-  "public/images/apps/testservices.png": {
-    "file": "assets/testservices-BL0ePEow.png",
-    "src": "public/images/apps/testservices.png"
+  "public/images/bg-pattern.png": {
+    "file": "assets/bg-pattern-C6uw14rj.png",
+    "src": "public/images/bg-pattern.png"
   },
   "public/images/cover-pattern.png": {
     "file": "assets/cover-pattern-CzcjCYXt.png",
     "src": "public/images/cover-pattern.png"
+  },
+  "public/images/goodwash.png": {
+    "file": "assets/goodwash-D_T-t0mx.png",
+    "src": "public/images/goodwash.png"
+  },
+  "public/images/job.png": {
+    "file": "assets/job-CPUTb3Q9.png",
+    "src": "public/images/job.png"
   },
   "public/images/logo-dark.png": {
     "file": "assets/logo-dark-D4ccpHnt.png",
@@ -220,27 +241,35 @@
     "src": "public/images/sidebar/img-4.jpg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-F4fYZidA.js",
+    "file": "assets/app-DsxxISt4.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
+    "dynamicImports": [
+      "node_modules/leaflet/dist/images/marker-icon-2x.png",
+      "node_modules/leaflet/dist/images/marker-icon.png",
+      "node_modules/leaflet/dist/images/marker-shadow.png",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js",
+      "node_modules/leaflet/dist/leaflet-src.esm.js"
+    ],
     "css": [
-      "assets/app-B7vjS8IH.css"
+      "assets/app-BNpqHix6.css"
     ],
     "assets": [
-      "assets/logo-sm-BMbbSDmV.png",
+      "assets/job-CPUTb3Q9.png",
       "assets/logo-dark-D4ccpHnt.png",
       "assets/logo-light-9TqfRNmK.png",
-      "assets/laboratory-DGebyxyk.png",
-      "assets/inventory-DCAGjWxa.png",
-      "assets/calendar-yfM8ZpJt.png",
-      "assets/testservices-BL0ePEow.png",
-      "assets/referral-eRDadRH6.png",
-      "assets/chatbox-DnuZYIu7.png",
       "assets/img-1-C6VsSbnm.jpg",
       "assets/img-2-B0ULeiCa.jpg",
       "assets/img-3-h1U1KdmN.jpg",
       "assets/img-4-iSVl4_tu.jpg",
+      "assets/goodwash-D_T-t0mx.png",
+      "assets/logo-sm-BMbbSDmV.png",
       "assets/hkgrotesk-light-CFOlwwJU.eot",
       "assets/hkgrotesk-light-Bch7Jc8H.woff",
       "assets/hkgrotesk-regular-C5FQFgYW.eot",
@@ -251,6 +280,8 @@
       "assets/hkgrotesk-semibold-CaqhRViJ.woff",
       "assets/hkgrotesk-bold-CNnIfM9m.woff",
       "assets/cover-pattern-CzcjCYXt.png",
+      "assets/bg-pattern-C6uw14rj.png",
+      "assets/bg-home-DTOHC1iM.jpg",
       "assets/materialdesignicons-webfont-Cd51xsCA.eot",
       "assets/materialdesignicons-webfont-DsMmahHu.woff2",
       "assets/materialdesignicons-webfont-BqTIB9TP.woff",

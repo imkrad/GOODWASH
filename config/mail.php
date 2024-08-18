@@ -96,8 +96,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@dostrstw.com'),
-        'name' => env('MAIL_FROM_NAME', 'DOST-IX RSTW'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@goodwashzc.com'),
+        'name' => env('MAIL_FROM_NAME', 'GOODWASH'),
     ],
 
 ];

@@ -29,7 +29,7 @@ class FormSubmissionMail extends Mailable implements ShouldQueue
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Training Registration Successful',
+            subject: 'Booking Successful',
         );
     }
 
