@@ -19,6 +19,9 @@ class Customer extends Model
         'longitude',
         'latitude',
         'address',
+        'ip_address',
+        'location',
+        'user_agent',
         'status_id',
         'barangay_code',
     ];

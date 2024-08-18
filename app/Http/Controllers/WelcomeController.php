@@ -28,9 +28,13 @@ class WelcomeController extends Controller
     public function store(CustomerRequest $request){
         $result = $this->handleTransaction(function () use ($request) {
             
+            $ip = $request->ip();
             $data = Customer::create(array_merge($request->all(),[
                 'reserved_at' => $request->date.' '.$request->time,
-                'status_id' => 1
+                'status_id' => 1,
+                'ip_address' => $ip,
+                'user_agent' => $request->userAgent(),
+                'location' => json_encode(geoip()->getLocation($ip)->toArray()),
             ]));
             return [
                 'data' => $data,
