@@ -16,7 +16,7 @@ class CustomerRequest extends FormRequest
         return [
             'firstname' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
-            'email' => 'required|email|max:150|unique:customers,email,'.$this->id,
+            'email' => 'required|email|max:150',
             'contact_no' => 'required|numeric|digits:11',
             'barangay_code' => 'required',
             'address' => 'required',
@@ -26,5 +26,7 @@ class CustomerRequest extends FormRequest
             'longitude' => 'nullable',
             'latitude' => 'nullable',
         ];
+
+        // unique:customers,email,'.$this->id
     }
 }
