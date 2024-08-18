@@ -70,7 +70,7 @@
                     </BCol>
                     <BCol lg="" class="hidemobile">
                         <div class="position-relative home-img text-center mt-5 mt-lg-0">
-                            <img src="/images/job.png" alt="" class="user-img rightpic">
+                            <img src="/images/job.png" alt="" class="user-img rightpic" style="margin-right: -130px;">
 
                             <div class="circle-effect">
                                 <div class="circle"></div>
