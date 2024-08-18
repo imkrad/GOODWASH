@@ -1,5 +1,5 @@
 <template>
-    <Head title="Mobile Car Wash" />
+    <Head title="Mobile Carwash" />
     <div class="layout-wrapper landing">
         <section class="section nft-hero job-hero-section bg-light pb-0" id="hero" style="margin-top: -170px;">
             <div class="bg-overlay"></div>
