@@ -19,12 +19,14 @@ class Customer extends Model
         'longitude',
         'latitude',
         'address',
-        'ip_address',
-        'location',
-        'user_agent',
         'status_id',
         'barangay_code',
     ];
+
+    public function log()
+    {
+        return $this->hasOne('App\Models\CustomerLog', 'customer_id');
+    }
 
     public function barangay()
     {
@@ -46,4 +48,18 @@ class Customer extends Model
         return date('M d, Y g:i a', strtotime($value));
     }
 
+    public function setFirstnameAttribute($value)
+    {
+        $this->attributes['firstname'] = ucwords(strtolower($value));
+    }
+
+    public function setLastnameAttribute($value)
+    {
+        $this->attributes['lastname'] = ucwords(strtolower($value));
+    }
+
+    public function setEmailAttribute($value)
+    {
+        $this->attributes['email'] = strtolower($value);
+    }
 }

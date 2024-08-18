@@ -23,9 +23,6 @@ return new class extends Migration
             $table->string('longitude')->nullable();
             $table->string('latitude')->nullable();
             $table->string('address',250);
-            $table->string('ip_address', 45)->nullable();
-            $table->text('user_agent')->nullable();
-            $table->json('location')->nullable();
             $table->string('barangay_code')->nullable()->constrained();
             $table->foreign('barangay_code')->references('code')->on('location_barangays')->onDelete('cascade');
             $table->tinyInteger('status_id')->unsigned()->index();
