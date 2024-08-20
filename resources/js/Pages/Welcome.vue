@@ -384,6 +384,14 @@
                                 </b-col>
                             </b-row>
                         </BCol>
+                        <BCol lg="6" class="mt-n2">
+                            <InputLabel for="name" value="Service" :message="form.errors.type"/>
+                            <select class="form-select mb-3" v-model="form.service" aria-label="Default select example" style="min-height: 38.4px !important;">
+                                <option value="null" selected class="text-muted" disabled>Select type</option>
+                                <option value="G1 - Mobile Good Wash">G1 - Mobile Good Wash</option>
+                                <option value="M1 - Mobile Premium Wash">M1 - Mobile Premium Wash</option>
+                            </select>
+                        </BCol>
                     </BRow>
                </form>
             </div>
@@ -467,6 +475,7 @@ export default {
                 time: null,
                 longitude: null,
                 latitude: null,
+                service: null,
                 check: false
             }),
             coordinates: {},
